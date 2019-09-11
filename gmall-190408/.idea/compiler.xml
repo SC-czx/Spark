@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall-mock" />
+        <module name="gmall-relatime" />
+        <module name="gmall-common" />
+        <module name="dw-chart" />
+        <module name="gmall-publisher" />
+        <module name="gmall-logger" />
+        <module name="gamll-canal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="dw-chart" target="1.8" />
+      <module name="gamll-canal" target="1.8" />
+      <module name="gmall-190408" target="1.8" />
+      <module name="gmall-common" target="1.8" />
+      <module name="gmall-logger" target="1.8" />
+      <module name="gmall-mock" target="1.8" />
+      <module name="gmall-publisher" target="1.8" />
+      <module name="gmall-relatime" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gamll-canal" options="-parameters" />
+      <module name="gmall-common" options="-parameters" />
+      <module name="gmall-logger" options="-parameters" />
+      <module name="gmall-mock" options="-parameters" />
+      <module name="gmall-publisher" options="" />
+      <module name="gmall-relatime" options="-parameters" />
+    </option>
+  </component>
+</project>
